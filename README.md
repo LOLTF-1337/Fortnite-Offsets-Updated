@@ -1,6 +1,42 @@
-**GWorld:** 0xEC17208                                                                                                                                                                                                                                                                                                                                                  
-**Signature:** 48 89 05 ? ? ? ? 48 8B 4B 78 F6 81 ? ? ? ? ? 75 2A 8B 45 A0 48 8D 55 A0 48 89 75 A8 25 ? ? ? ? 0D ? ? ? ? 89 45 A0
-                                                                                                                                                                         
-**Fname:** 0xEC38540   
+#pragma once
+#include <Windows.h>
+
+#define GWorld 0xEC17208
+
+namespace OFFSETS
+{
+    // TeamIndex - TeamID - ActorID
+    uintptr_t TeamId = 0x1100;
+
+    // Local
+    uintptr_t LocalActorPos = 0x128;
+    uintptr_t LocalPawn = 0x330;
+    uintptr_t LocalPlayers = 0x38;
+
+    // Player - BoneArray
+    uintptr_t BoneArray = 0x5E8;
+    uintptr_t PlayerState = 0x2a8;
+    uintptr_t PlayerArray = 0x2a0;
+    uintptr_t PlayerController = 0x30;
+    uintptr_t PlayerCameraManager = 0x340;
+
+    // Game - World
+    uintptr_t Gameinstance = 0x1B8;
+    uintptr_t GameState = 0x158;
+    uintptr_t ComponetToWorld = 0x240;
+
+    // Actor
+    uintptr_t ActorCount = 0xA0;
+    uintptr_t AActor = 0x98;
+    uintptr_t CurrentActor = 0x300;
+
+    // Other
+    uintptr_t RootComponet = 0x190;
+    uintptr_t PersistentLevel = 0x30;
+    uintptr_t Mesh = 0x310;
+    uintptr_t Velocity = 0x170;
+    uintptr_t PawnPrivate = 0x300;
+    uintptr_t ReviveFromDBNOTime = 0x43c0;
+}
                                                                                                                                                                                                         
 Credits to LOLTF#4825
