@@ -1,7 +1,7 @@
 GWorld 0xEC17208
 
-namespace OFFSETS
-{
+namespace OFFSETS                                                                                                                                                                   
+{                                                                                                                                                                                             
     // TeamIndex - TeamID - ActorID
     uintptr_t TeamId = 0x1100;
 
