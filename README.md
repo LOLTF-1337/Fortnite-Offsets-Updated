@@ -1,4 +1,4 @@
-GWorld 0xEC17208
+**GWorld 0xEC17208**
 
 namespace OFFSETS                                                                                                                                                                   
 {                                                                                                                                                                                                                                                                                                                                  
@@ -37,4 +37,4 @@ namespace OFFSETS
     uintptr_t ReviveFromDBNOTime = 0x43c0;
 }
                                                                                                                                                                                                         
-Credits to LOLTF#4825
+**Credits to LOLTF#4825**
