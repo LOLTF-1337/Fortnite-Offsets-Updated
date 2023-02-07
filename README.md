@@ -1,7 +1,4 @@
-#pragma once
-#include <Windows.h>
-
-#define GWorld 0xEC17208
+GWorld 0xEC17208
 
 namespace OFFSETS
 {
