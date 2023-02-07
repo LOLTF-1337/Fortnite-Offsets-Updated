@@ -2,13 +2,15 @@ GWorld 0xEC17208
 
 namespace OFFSETS                                                                                                                                                                   
 {                                                                                                                                                                                                                                                                                                                                  
-    uintptr_t TeamId = 0x1100;
+
 
     // Local
     uintptr_t LocalActorPos = 0x128;
     uintptr_t LocalPawn = 0x330;
     uintptr_t LocalPlayers = 0x38;
-
+    
+    uintptr_t TeamId = 0x1100;
+    
     // Player - BoneArray
     uintptr_t BoneArray = 0x5E8;
     uintptr_t PlayerState = 0x2a8;
